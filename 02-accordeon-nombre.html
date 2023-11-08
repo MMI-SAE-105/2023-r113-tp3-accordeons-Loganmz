@@ -13,15 +13,15 @@
       isOpen:1,
     }">
       <section>
-        <button  @click="open = ! open">bouton 1</button>
-        <p  x-show="open" x-transition.scale.origin.top>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus maiores ducimus unde. Sunt ut odio quis consequatur. Doloremque animi modi dolore itaque voluptatibus blanditiis officiis temporibus provident iure exercitationem?</p>
+        <button  @click="isOpen = 1">bouton 1</button>
+        <p  x-show="isOpen === 1" x-transition.scale.origin.top>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus maiores ducimus unde. Sunt ut odio quis consequatur. Doloremque animi modi dolore itaque voluptatibus blanditiis officiis temporibus provident iure exercitationem?</p>
       </section>
       <section>
-        <button  @click="open = ! open">bouton 2</button>
+        <button @click="isOpen = 2">bouton 2</button>
         <p x-show="open" x-transition.scale.origin.top>Est sint sunt vero voluptatem laudantium suscipit? Animi eos dolorem incidunt vitae ex consectetur, voluptatem est soluta necessitatibus velit, tempora repellat aliquam eum aut ducimus maiores ipsa dolore perspiciatis sapiente?</p>
       </section>
       <section>
-        <button  @click="open = ! open">bouton 3</button>
+        <button  @click="isOpen = 3">bouton 3</button>
         <p x-show="open" x-transition.scale.origin.top>Quasi, deserunt. Cupiditate, sed magnam fuga iure fugiat voluptas maiores odio laborum nulla nostrum, tempora dolor labore dolores dolore atque officiis? Laudantium, esse nobis. Eos id excepturi necessitatibus consequuntur aliquid?</p>
       </section>
     </div>
