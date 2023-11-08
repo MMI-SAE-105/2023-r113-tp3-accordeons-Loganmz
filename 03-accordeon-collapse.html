@@ -16,15 +16,15 @@
         isOpen:true,
       }">
         <button @click="isOpen=! isOpen">bouton 1</button>
-        <p  x-show="isOpen" x-transition.scale.origin.top>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus maiores ducimus unde. Sunt ut odio quis consequatur. Doloremque animi modi dolore itaque voluptatibus blanditiis officiis temporibus provident iure exercitationem?</p>
+        <p  x-show="isOpen" x-collapse>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus maiores ducimus unde. Sunt ut odio quis consequatur. Doloremque animi modi dolore itaque voluptatibus blanditiis officiis temporibus provident iure exercitationem?</p>
       </section>
-      <section>
+      <section x-data="{isOpen1:true}">
         <button  @click="isOpen = ! isOpen">bouton 2</button>
-        <p x-show="isOpen" x-transition.scale.origin.top>Est sint sunt vero voluptatem laudantium suscipit? Animi eos dolorem incidunt vitae ex consectetur, voluptatem est soluta necessitatibus velit, tempora repellat aliquam eum aut ducimus maiores ipsa dolore perspiciatis sapiente?</p>
+        <p x-show="isOpen" x-collapse>Est sint sunt vero voluptatem laudantium suscipit? Animi eos dolorem incidunt vitae ex consectetur, voluptatem est soluta necessitatibus velit, tempora repellat aliquam eum aut ducimus maiores ipsa dolore perspiciatis sapiente?</p>
       </section>
       <section>
         <button  @click="isOpen = ! isOpen">bouton 3</button>
-        <p x-show="isOpen" x-transition.scale.origin.top>Quasi, deserunt. Cupiditate, sed magnam fuga iure fugiat voluptas maiores odio laborum nulla nostrum, tempora dolor labore dolores dolore atque officiis? Laudantium, esse nobis. Eos id excepturi necessitatibus consequuntur aliquid?</p>
+        <p x-show="isOpen" x-collapse>Quasi, deserunt. Cupiditate, sed magnam fuga iure fugiat voluptas maiores odio laborum nulla nostrum, tempora dolor labore dolores dolore atque officiis? Laudantium, esse nobis. Eos id excepturi necessitatibus consequuntur aliquid?</p>
       </section>
     </div>
   </body>
