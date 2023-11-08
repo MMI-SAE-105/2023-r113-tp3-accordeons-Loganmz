@@ -22,7 +22,9 @@
         <button @click="isOpen1=! isOpen1">bouton 2</button>
         <p  x-show="isOpen1" x-collapse>Est sint sunt vero voluptatem laudantium suscipit? Animi eos dolorem incidunt vitae ex consectetur, voluptatem est soluta necessitatibus velit, tempora repellat aliquam eum aut ducimus maiores ipsa dolore perspiciatis sapiente?</p>
       </section>
-      <section>
+      <section x-data="{
+        isOpen2:true,
+      }">
         <button  @click="isOpen = ! isOpen">bouton 3</button>
         <p x-show="isOpen" x-collapse>Quasi, deserunt. Cupiditate, sed magnam fuga iure fugiat voluptas maiores odio laborum nulla nostrum, tempora dolor labore dolores dolore atque officiis? Laudantium, esse nobis. Eos id excepturi necessitatibus consequuntur aliquid?</p>
       </section>
