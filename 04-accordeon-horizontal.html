@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accordéon horizontal</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
     <h1>Accordéon horizontal</h1>
-    <ul id="accordeon">
+    <ul id="accordeon" x-data="{isOpen:0}">
       <li>
         <figure>
-          <img alt="src-media.com" width="102" height="77" src="https://picsum.photos/100?random=$">
+          <img alt="src-media.com" width="102" height="77" src="https://picsum.photos/200?random=$">
           <figcaption>
             <h3>Lorem, ipsum dolor.</h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -21,7 +22,7 @@
       </li>
       <li class="actif">
         <figure>
-          <img alt="" width="102" height="77" src="https://picsum.photos/100?random=$">
+          <img alt="" width="102" height="77" src="https://picsum.photos/300?random=$">
           <figcaption>
             <h3>Excepturi, ducimus rem.</h3>
             <p>Omnis aliquid harum eius voluptate velit.</p>
