@@ -7,4 +7,14 @@
 #accordeon li {
     width: 107px;
     overflow: hidden;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    color: white;
+    list-style: none;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
 }
