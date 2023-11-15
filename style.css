@@ -22,3 +22,16 @@
 #accordeon li.actif {
     width: 317px;
 }
+
+
+#accordeon li figure {
+    margin: 0;
+    display: table;
+    width: 317px;
+}
+
+#accordeon li figure figcaption {
+    width: 200px;
+    padding: 10px
+    
+}
