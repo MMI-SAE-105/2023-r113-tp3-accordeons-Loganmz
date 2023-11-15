@@ -11,7 +11,7 @@
   <body>
     <h1>Accordéon horizontal</h1>
     <ul id="accordeon" x-data="{isOpen:0}">
-      <li>
+      <li :class="{actif:isOpen === 0,}">
         <figure>
           <img alt="src-media.com" width="102" height="77" src="https://picsum.photos/200?random=$">
           <figcaption>
