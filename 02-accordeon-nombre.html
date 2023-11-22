@@ -8,6 +8,31 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
+    <header>
+      <h1>Test de divers accordéons</h1>
+        <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
+          <div class="nav-toogle-bar"></div>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="01-accordeon-booleen.html">Accordéon avec des booléens</a>
+          </li>
+          <li>
+            <a href="02-accordeon-nombre.html"
+              >Accordéon mémorisant par un nombre l'élèment ouvert</a
+            >
+          </li>
+          <li>
+            <a href="03-accordeon-collapse.html"
+              >Accordéon avec <code>x-collapse</code></a
+            >
+          </li>
+          <li><a href="04-accordeon-horizontal.html">Accordéon horizontal</a></li>
+          <li><a href="05-onglets.html">Onglets</a></li>
+        </ul>
+      </nav>
+    </header>
     <h1>Accordéon mémorisant par un nombre l'élèment ouvert</h1>
     <div class="accordeon" x-data="{
       isOpen:1,
