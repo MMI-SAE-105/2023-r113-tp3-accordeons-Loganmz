@@ -1,3 +1,3 @@
 - nom : Martinez
 - prénom : logan
-- URL publique du site : tp-accordeons-logan-martinez.netlify.app
+- URL publique du site : https://tp-accordeons.logan-martinez.fr/
